@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\\u6211\u7684\u5927\u5B66\\\u4F5C\u4E1A\\\u7A0B\u5E8F\u8BFE\u7A0B\u8BBE\u8BA1\\ProgramHomework1\\",
+  "WorkspaceRootPath": "D:\\MyProject\\LocalRepository\\ProgramHomework\\ProgramHomework1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD235FF4-B219-4789-BAF7-20E0F008EB61}|ProgramHomework1.vcxproj|E:\\\u6211\u7684\u5927\u5B66\\\u4F5C\u4E1A\\\u7A0B\u5E8F\u8BFE\u7A0B\u8BBE\u8BA1\\ProgramHomework1\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{BD235FF4-B219-4789-BAF7-20E0F008EB61}|ProgramHomework1.vcxproj|D:\\MyProject\\LocalRepository\\ProgramHomework\\ProgramHomework1\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BD235FF4-B219-4789-BAF7-20E0F008EB61}|ProgramHomework1.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD235FF4-B219-4789-BAF7-20E0F008EB61}|ProgramHomework1.vcxproj|D:\\MyProject\\LocalRepository\\ProgramHomework\\ProgramHomework1\\picture.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{BD235FF4-B219-4789-BAF7-20E0F008EB61}|ProgramHomework1.vcxproj|solutionrelative:picture.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +26,25 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "picture.ico - Icon [32x32, 32 \u4F4D, BMP]",
+              "DocumentMoniker": "D:\\MyProject\\LocalRepository\\ProgramHomework\\ProgramHomework1\\picture.ico",
+              "RelativeDocumentMoniker": "picture.ico",
+              "ToolTip": "D:\\MyProject\\LocalRepository\\ProgramHomework\\ProgramHomework1\\picture.ico - Icon [32x32, 32 \u4F4D, BMP]",
+              "RelativeToolTip": "picture.ico - Icon [32x32, 32 \u4F4D, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-05-13T14:34:34.973Z",
+              "EditorCaption": " - Icon [32x32, 32 \u4F4D, BMP]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.c",
-              "DocumentMoniker": "E:\\\u6211\u7684\u5927\u5B66\\\u4F5C\u4E1A\\\u7A0B\u5E8F\u8BFE\u7A0B\u8BBE\u8BA1\\ProgramHomework1\\main.c",
+              "DocumentMoniker": "D:\\MyProject\\LocalRepository\\ProgramHomework\\ProgramHomework1\\main.c",
               "RelativeDocumentMoniker": "main.c",
-              "ToolTip": "E:\\\u6211\u7684\u5927\u5B66\\\u4F5C\u4E1A\\\u7A0B\u5E8F\u8BFE\u7A0B\u8BBE\u8BA1\\ProgramHomework1\\main.c",
+              "ToolTip": "D:\\MyProject\\LocalRepository\\ProgramHomework\\ProgramHomework1\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAQwGoAAAAQAAAA",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAuwG8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-05-12T08:43:54.741Z",
               "EditorCaption": ""

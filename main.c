@@ -23,23 +23,23 @@ int main() {
     char** idCards = NULL;  // 用于存储身份证号码的指针数组
     int numIDCards = 0;
     int maxIDCards = 10000;  // 最大输入身份证号码的数量
-    int len = 0; //验证身份证号码长度
+    int len = 0; // 验证身份证号码长度
     int i = 0;
     // 动态分配内存
     idCards = (char**)malloc(maxIDCards * sizeof(char*));
-    if (idCards == NULL) {
+    if (idCards == NULL) {  //  检验内存是否分配成功
         printf("内存分配失败\n");
         return 1;
     }
 
     // 用户逐个输入身份证号码
-    printf("请输入身份证号码（输入'q'完成输入）：\n");
+    printf("请输入身份证号码（输入 'q' 或 'Q' 完成号码的输入）：\n");
     while (numIDCards < maxIDCards) {
         printf("身份证号码 %d：", numIDCards + 1);
 
         // 动态分配内存来存储每个身份证号码
         idCards[numIDCards] = (char*)malloc(20 * sizeof(char));  // 身份证号码长度为18位，最后一位为'\0'
-        if (idCards[numIDCards] == NULL) {
+        if (idCards[numIDCards] == NULL) {  //  检验内存是否分配成功
             printf("内存分配失败\n");
             return 1;
         }
@@ -80,6 +80,8 @@ int main() {
             free(idCards[i]);
         }
         free(idCards);
+        printf("\n请按回车键退出该程序。\n");
+        getchar();  // 等待用户按下回车键退出程序
 		return 1;
 	}
     printf("在输入的所有身份证号码中，");
@@ -97,7 +99,6 @@ int main() {
     }
 
     // 判断并输出所有无效身份证号码
-    
     for (i = 0; i < numIDCards; i++) {
         if (!validateIDCard(idCards[i])) {
             printf("%s\n", idCards[i]);
@@ -109,6 +110,9 @@ int main() {
         free(idCards[i]);
     }
     free(idCards);
+
+    printf("\n请按回车键退出该程序。\n");
+    getchar();  // 等待用户按下回车键退出程序
 
     return 0;
 }
